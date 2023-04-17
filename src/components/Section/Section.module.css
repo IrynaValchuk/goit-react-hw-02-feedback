@@ -1,6 +1,6 @@
 .section {
   padding: 50px;
-  height: 1200px;
+  height: 100vh;
   background-color: var(--bg-root);
 }
 
