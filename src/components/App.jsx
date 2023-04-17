@@ -9,7 +9,8 @@ export class App extends Component {
   };
 
   handleBtnClick = evt => {
-    const { value } = evt.target.dataset;
+    console.log(evt);
+    const { value } = evt.target;
     this.setState(prevState => ({
       [value]: prevState[value] + 1,
     }));

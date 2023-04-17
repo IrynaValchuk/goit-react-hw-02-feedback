@@ -10,7 +10,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           <button
             className={css.btn}
             type="button"
-            data-value={option}
+            value={option}
             onClick={onLeaveFeedback}
           >
             {option}
